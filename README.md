@@ -2,7 +2,7 @@
 
 This project is designed for **you** to gauge whether you want to apply to the **bootcamp** or **industry** branch. Follow the steps below to finish and submit your project. Do not be discouraged if you get stuck. Completing all tasks for the branch you are applying to is highly preferred, but we will only assess your project based on whatever you submit to us.
 
-If you have any questions, please reach out to us at [our email](webatberkeley@gmail.com).
+If you have any questions, please reach out to us at our email: webatberkeley@gmail.com
 
 ## Clarifications
 - There are two Figma pages (access them in the top left). Please make sure you click on the project you are completing. 
