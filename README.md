@@ -5,7 +5,7 @@ This project is designed for **you** to gauge whether you want to apply to the *
 If you have any questions, please reach out to us at [our email](webatberkeley@gmail.com).
 
 ## Clarifications
-- None at the moment.
+- There are two Figma pages (access them in the top left). Please make sure you click on the project you are completing. 
 
 ## Introduction
 
@@ -15,72 +15,43 @@ Introducing the magical world of unicorn adoptions! We are My Little Unicorn, a 
 
 ## Specifications
 
-The skeleton code provided is in Next.js and Typescript (it's almost identical to Javascript, and you won't have trouble understanding it if you know JS). Free free to create/edit/destroy any files you want while completing this project. If you find a better solution, you should implement that instead of what is provided. If you are more comfortable in another framework, you are welcome to start a project in any other frontend framework you like. You are also welcome to use any UI component library, although Chakra UI has been used to set up most of this project. You are welcome to use NPM or Yarn when downloading dependencies. 
+There will be no skeleton provided for this project since you are able to use any framework/library you want. We would prefer if you completed it in Next.JS (but will not mark you down if you use something else). You are welcome to use NPM or Yarn when downloading dependencies. 
 
 Use the documentation below to complete your project.
 
 - Figma Designs: https://www.figma.com/file/hVK6z7EJGnuDks4Lz0XCaG/%5BSP-23%5D-Frontend-Technical-Project?node-id=2%3A494&t=9UqRnRczpRWANRB9-1
-- Next.js: https://nextjs.org/
-- Chakra UI: https://chakra-ui.com/
-
-## Getting Started
-
-1. Clone this GitHub repo into a local folder. 
-
-2. Run in the project terminal
-
-```
-yarn
-```
-
-3. You can run your website by running
-
-```
-yarn dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js (optional): https://nextjs.org/
+- Chakra UI (optional): https://chakra-ui.com/
 
 ## Bootcamp Project
 
-### Task One
+### Task 1
 
-Complete the Landing page UI in landing.tsx. Make sure to follow the [Figma]( https://www.figma.com/file/hVK6z7EJGnuDks4Lz0XCaG/%5BSP-23%5D-Frontend-Technical-Project?node-id=2%3A494&t=9UqRnRczpRWANRB9-1) provided. The background image is provided in the public folder.
+Complete the navbar component. Clicking the icon or text in the top left should take you back to the home page, clicking "About Us" should take you to the about-us page, and clicking "Gallery" should take you to the gallery page.
 
-### Task Two
+### Task 2
 
-Complete the NavBar navigation component in NavBar.tsx. Clicking the icon or text in the top left should take you back to the home page, clicking "About Us" should take you to the about-us page, and clicking "Gallery" should take you to the gallery page. Consult the Next.js documentation on how to do so.
+Complete the Landing page UI in the home page of your project. Make sure to follow the [Figma]( https://www.figma.com/file/hVK6z7EJGnuDks4Lz0XCaG/%5BSP-23%5D-Frontend-Technical-Project?node-id=2%3A494&t=9UqRnRczpRWANRB9-1) provided.
 
-### Task Three
+### Task 3
 
-Complete the Voting page in voting.tsx. Your task is to make a card for each previous winner (the images are given in the public folder). Each previous runner should have a default value of 0. When you click the up arrow icon or down arrow icon, the score should increment or decrement by one vote. Make sure that other values are not reset when you upvote or downvote a runner.
-
-Feel free to create new components in the component folder and use them in this page.
+Complete the About Us page. Input a random value to start on the "score" at the bottom right of the page. Clicking the +1 button should increment the score by one.
 
 ## Industry Project
 
-### Task One
+### Task 1-3
 
-Complete the Landing page UI in landing.tsx. Make sure to follow the [Figma](https://www.figma.com/file/CEX3yx0QzlfA4gmeMTlWBC/%5BFA22%5D-Frontend-Project?node-id=0%3A1) provided. The background image is provided in the public folder. The NavBar has already been completed for you (although you will be tweaking it in task two). 
+Complete all of the bootcamp tasks before moving forward.
 
-### Task Two
+### Task 4
 
-Complete the NavBar navigation component in nav-bar.tsx. Clicking "home" should take you back to the home page, and clicking "voting" should take you to the voting page. Consult the Next.js documentation on how to do so.
-
-### Task Three
-
-Complete the Voting page and Victors page in voting.tsx and victors.tsx. Your task is to get data from this [API endpoint](https://raw.githubusercontent.com/web-at-berkeley/fa22-frontend-api-endpoint/main/data.json) about the images, scores, and descriptions of each runner and victor. Do not hard-code the values from that json file, and assume it may change in the future.
-
-You should be able to map this data to create cards in the Voting page. You should also keep track of the scores in the Voting page using local state and be able to increment/decrement using your icons (without resetting the other runners' scores). 
-
-You will need to also map the API values you get to create a list of previous winners in the Victors page that, when expanded, shows a short description.
-
+Complete the Gallery page. This page displays all the unicorns with an option to "adopt" each of the unicorns. Each unicorn should be kept track of and the adopt button should change depending on if you have selected to adopt that unicorn. In addition, implement a basic search (this doesn't have to be overly complex). You should filter out unicorns by name if they are not matching the search. 
 
 ## Submission
 
 **Congratulations!** To submit your project, please make sure your project is in a GitHub repo that is set to private. You will be submitting your code on [Gradescope](https://www.gradescope.com/). If you do not have a Gradescope account, please create one. If you are unable to create one, please email us
 immediately. The Gradescope course code is `4V22DJ`. You will see two different assignments: `Frontend Project` and `Backend Project`. _Please only submit to Frontend Technical Project._ You can ignore Backend Technical Project.
 
-The technical project will be due by Wednesday, 9/7 at midnight. We will be unable to respond to clarification emails sent in after then. If you have any questions about the project, please let us know before then (we will be hosting technical project office hours in our club recruitment Discord, which you can join [here](https://linktr.ee/webdevatberkeley)).
+The technical project will be due by Monday, 1/30 at midnight. We will be unable to respond to clarification emails sent in after then. If you have any questions about the project, please let us know before then (we will be hosting technical project office hours in our club recruitment Discord, which you can join [here](https://linktr.ee/webdevatberkeley)).
 
 Also, this page may potentially keep changing if we get some frequently asked questions, so keep this repository bookmarked and check back on it every now and then! If there are any major changes, we'll make sure to email you about those.
